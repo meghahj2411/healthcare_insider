@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(120deg, #f4f7fb, #eef2f7);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR BUTTONS */
+.nav-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 6px 14px;
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* HERO PAGE */
+.hero-title {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.hero-sub {
+  color: #5a5f7d;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.action-card {
+  border-radius: 18px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.action-card:hover {
+  transform: translateY(-5px);
+}
+
+.blue {
+  background: linear-gradient(135deg, #4e73df, #224abe);
+}
+
+.green {
+  background: linear-gradient(135deg, #1cc88a, #0f6848);
+}
+
+/* DASHBOARD */
+.stat-card {
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  background: white;
+}
+
+/* TABLE */
+.table-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.table th {
+  background: #f1f3f9;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 6px 10px;
+}
